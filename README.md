@@ -5,7 +5,7 @@ Unofficial library to retrieve information from the HuggingFace website.
 ## Installation
 
 ```bash
-npm install hugginginfo
+npm install @bocchilorenzo/hugginginfo
 ```
 
 ## Usage
