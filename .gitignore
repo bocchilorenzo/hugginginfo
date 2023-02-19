@@ -1,0 +1,4 @@
+.prettierrc
+testLib.js
+dist/
+node_modules/
