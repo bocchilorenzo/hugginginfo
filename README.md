@@ -11,7 +11,7 @@ npm install @bocchilorenzo/hugginginfo
 ## Usage
 
 ```js
-const HuggingInfo = require("hugginginfo");
+const HuggingInfo = require("@bocchilorenzo/hugginginfo");
 const hf = new HuggingInfo();
 ```
 

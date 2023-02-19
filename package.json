@@ -1,8 +1,9 @@
 {
   "name": "@bocchilorenzo/hugginginfo",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Unofficial package to retrieve all the available models from Huggingface hub for the different tasks and their information.",
-  "main": "main.js",
+  "main": "main",
+  "typings": "main",
   "scripts": {
     "build": "node tools/build.js"
   },
@@ -16,6 +17,7 @@
   "author": "Lorenzo Bocchi",
   "license": "MIT",
   "dependencies": {
+    "@babel/runtime": "^7.20.13",
     "axios": "^1.3.3",
     "cheerio": "^1.0.0-rc.12"
   },
