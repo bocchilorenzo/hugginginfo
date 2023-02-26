@@ -4,14 +4,18 @@ Unofficial library to retrieve information from the HuggingFace website.
 
 ## Installation
 
+Clone the repository and install the dependencies:
+
 ```bash
-npm install @bocchilorenzo/hugginginfo
+git clone
+cd hugginginfo
+npm install
 ```
 
 ## Usage
 
 ```js
-const HuggingInfo = require("@bocchilorenzo/hugginginfo");
+const HuggingInfo = require("./hugginginfo/src/main.js");
 const hf = new HuggingInfo();
 ```
 
@@ -129,6 +133,10 @@ Example response:
   "fillType": "[MASK]"
 }
 ```
+
+## TODO
+
+-  [ ] Publish on NPM
 
 ## Note
 
