@@ -1,6 +1,6 @@
 {
   "name": "@bocchilorenzo/hugginginfo",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Unofficial package to retrieve all the available models from Huggingface hub for the different tasks and their information.",
   "main": "main",
   "typings": "main",

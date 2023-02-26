@@ -34,7 +34,7 @@ class HuggingInfo {
         const $ = cheerio.load(html);
         $("a.tag.tag-white").each(function (index, element) {
             toReturn.tasks.push({
-                name: $(this).text().trim(),
+                name: $(this).text().trim().replace(/(\r\n|\n|\r|\t)/gm,""),
                 url: $(this).attr("href"),
             });
         });
